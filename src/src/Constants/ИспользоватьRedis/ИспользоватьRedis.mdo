@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da7a6677-7004-466a-b04e-6c3dff6e3be7">
+  <producedTypes>
+    <managerType typeId="e5cd1f81-684b-4532-aedb-23a12cd0619a" valueTypeId="835313a8-0ae5-462f-9d03-a1af8c40e03c"/>
+    <valueManagerType typeId="d0047a54-be8a-487a-bae5-b2d7ddf54142" valueTypeId="598278f6-b31a-437f-96f2-b0df95232397"/>
+    <valueKeyType typeId="82c4f66f-f49e-41f0-b86b-a5c3122f564b" valueTypeId="87aa797a-127c-49ac-b4a6-f834b87df5bb"/>
+  </producedTypes>
+  <name>ИспользоватьRedis</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать redis</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

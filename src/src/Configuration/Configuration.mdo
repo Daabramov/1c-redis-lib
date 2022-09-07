@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0706df3a-5338-4f3b-9dda-47cf1b812009">
+  <name>БиблиотекаRedis</name>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотека redis</value>
+  </synonym>
+  <comment>Библиотека для удобной работы с Redis</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="dc0e0ebd-79f9-4b3d-86ca-3dd06fb54726"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="303ce9d6-c20b-443b-9f41-fa045ff60f2b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d94d68ef-3f39-4ae2-a1b1-69a60559b68b"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="7ddcfbc8-cc81-4e5a-995a-ba18e84c95ef"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b8ec0e3f-7870-4a94-a969-d85fbb2e138a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="dfac0acb-73fd-45a2-bcf9-006931476de6"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="2083e3b7-9372-4d33-a231-d271abc0388b"/>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Abramov Dmitry</vendor>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="a2380657-9f2a-4efa-b8fb-400a6e48fc3b">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Redis</subsystems>
+  <commonTemplates>CommonTemplate.RedisClient</commonTemplates>
+  <commonModules>CommonModule.КешRedis</commonModules>
+  <commonModules>CommonModule.КешRedisПовтИсп</commonModules>
+  <commonModules>CommonModule.КоннекторRedis</commonModules>
+  <commonModules>CommonModule.КоннекторRedisПовтИсп</commonModules>
+  <commonModules>CommonModule.ПодпискиRedis</commonModules>
+  <eventSubscriptions>EventSubscription.ОбработкаКешаRedis</eventSubscriptions>
+  <functionalOptions>FunctionalOption.ИспользоватьRedis</functionalOptions>
+  <constants>Constant.RedisURI</constants>
+  <constants>Constant.ИспользоватьRedis</constants>
+</mdclass:Configuration>

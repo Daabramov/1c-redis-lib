@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a40859e5-887d-4d2c-be55-ab0ecc5b6ee7">
+  <producedTypes>
+    <managerType typeId="0f6b4f64-9460-4055-b310-83ee49401146" valueTypeId="a1994ae7-588a-49e7-9e8e-bb10975cd4a8"/>
+    <valueManagerType typeId="615a60da-6263-4162-a0c0-8dfab9229d3e" valueTypeId="8e567a32-95e4-4210-ad71-18cb62cbff71"/>
+    <valueKeyType typeId="4f4d4ec3-afb2-47c6-a3d5-e267911f6666" valueTypeId="f4415a8b-0eea-45b5-9485-ea034f71f3e4"/>
+  </producedTypes>
+  <name>RedisURI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Redis URI</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

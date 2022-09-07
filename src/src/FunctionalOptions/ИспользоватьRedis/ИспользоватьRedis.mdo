@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09ad79e9-dd88-4d72-9015-51ed9585852a">
+  <name>ИспользоватьRedis</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать redis</value>
+  </synonym>
+  <location>Constant.ИспользоватьRedis</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Constant.RedisURI</content>
+</mdclass:FunctionalOption>

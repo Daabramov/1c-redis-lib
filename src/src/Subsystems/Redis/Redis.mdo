@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b7be1e9-090c-4429-9eb3-ecd6da91b8ab">
+  <name>Redis</name>
+  <synonym>
+    <key>ru</key>
+    <value>Redis</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ПодпискиRedis</content>
+  <content>CommonModule.КоннекторRedis</content>
+  <content>CommonModule.КоннекторRedisПовтИсп</content>
+  <content>EventSubscription.ОбработкаКешаRedis</content>
+  <content>CommonTemplate.RedisClient</content>
+  <content>Constant.RedisURI</content>
+  <content>CommonModule.КешRedis</content>
+  <content>CommonModule.КешRedisПовтИсп</content>
+  <content>FunctionalOption.ИспользоватьRedis</content>
+  <content>Constant.ИспользоватьRedis</content>
+</mdclass:Subsystem>
